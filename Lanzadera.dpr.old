@@ -1,0 +1,14 @@
+program Lanzadera;
+
+uses
+  Forms,
+  ULanzadera in 'ULanzadera.pas' {FLanzadera},
+  UActualizarDir in 'UActualizarDir.pas' {FActualizarDir};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TFLanzadera, FLanzadera);
+  Application.Run;
+end.
